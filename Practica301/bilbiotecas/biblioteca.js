@@ -10,7 +10,7 @@ const parrafo2 = document.body.firstElementChild.nextElementSibling;
 const enlaces = document.getElementsByTagName("a");
 const cantidadEnlaces = enlaces.length;
 //La dirección del primer enlace
-const direccionEnlace = enlaces.firstElementChild.getAttribute(href);
+//const direccionEnlace = enlaces.firstElementChild.getAttribute(href);
 console.log(direccionEnlace);
 //La dirección del penúltimo enlace
 

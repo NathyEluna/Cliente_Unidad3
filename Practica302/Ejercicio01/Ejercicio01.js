@@ -3,6 +3,6 @@ import {censurarPalabra} from "../biblioteca/biblioteca.js";
 
 setTimeout(()=>{
     //console.log(document.body.innerHTML.replaceAll('sexo', '<span class="censurado">Contenido Bloqueado</span>'));
-    censurarPalabra();
+    censurarPalabra("sexo");
 }, 2000)
 

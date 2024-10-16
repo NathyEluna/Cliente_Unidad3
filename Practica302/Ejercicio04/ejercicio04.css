@@ -1,0 +1,15 @@
+#carrusel {
+    width: 99%;
+    overflow: hidden;
+}
+
+#carrusel img {
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 1px solid blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    opacity: 0;
+}

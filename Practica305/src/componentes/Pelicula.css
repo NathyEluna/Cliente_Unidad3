@@ -1,0 +1,48 @@
+.pelicula-titulo{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.pelicula-titulo:hover{
+    cursor: pointer;
+}
+
+.pelicula-subtitulo{
+    text-align: left;
+    padding-left: 80px;
+}
+
+.pelicula-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pelicula-cartela{
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.pelicula-cartela img{
+    width: 100%;
+}
+
+.pelicula-resumen{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.pelicula-resumen h3{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.pelicula-resumen p{
+    text-align: justify;
+    padding: 50px;
+}
+
+.pelicula-elenco{
+    width: 99%;
+}

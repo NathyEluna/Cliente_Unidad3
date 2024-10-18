@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+.contenedor{
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.cont-button{
+    margin: 10px;
+}

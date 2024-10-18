@@ -10,7 +10,8 @@ const Numericos = () => {
 
     return (
     <>
-        <div>
+        <div className="contenedor">
+            <h2>Ejercicio 1</h2>
             <ol ref={refe}></ol>
             <button onClick={() =>{
                anadirNumerico(refe);

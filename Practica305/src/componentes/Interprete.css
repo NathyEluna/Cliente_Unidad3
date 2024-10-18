@@ -1,0 +1,12 @@
+.interprete-contenedor{
+    width: 80%;
+    border: 2px groove rgb(0, 38, 255);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.interprete-imagen{
+    width: 20%;
+}

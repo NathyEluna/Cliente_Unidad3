@@ -1,9 +1,11 @@
 "use strict";
 
+//Ejercicio 01
 export const obtenerNumeroAleatorio = () =>{
     return Math.floor(Math.random() * 1000) + 1;
 };
 
+//Ejercicio 02
 export function generarColorAleatorio() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -15,13 +17,26 @@ export function generarColorAleatorio() {
 };
 
 export function cambiarColorAleatoriamente(referencia) {
-    //Seleccionar todos los párrafos dentro de la función
-    const parrafo = referencia.current;
+  const color = generarColorAleatorio();
 
-    //Restablecer el color de fondo de todos los párrafos
-    parrafo.forEach(p => p.style.backgroundColor = "rgb(222, 222, 222)");
+  referencia.current.style.background = color;
+};
 
-  
-    //Cambiar el color de fondo del párrafo seleccionado
-    parrafo.style.backgroundColor = getRandomColor();
+//Ejercicio 03
+export function incrementar(referencia){
+  let valorInicial = parseInt(referencia.current.innerHTML);
+
+  if(valorInicial >= 0){
+    valorInicial++;
+    referencia.current.innerHTML = valorInicial;
   };
+};
+
+export function decrementar(referencia){
+  let valorInicial = parseInt(referencia.current.innerHTML);
+
+  if(valorInicial > 0){
+    valorInicial--;
+    referencia.current.innerHTML = valorInicial;
+  };
+};

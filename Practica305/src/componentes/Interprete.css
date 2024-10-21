@@ -1,6 +1,6 @@
 .interprete-contenedor{
     width: 80%;
-    border: 2px groove rgb(0, 38, 255);
+    border: 2px dotted cornflowerblue;
     padding: 10px;
     box-sizing: border-box;
     margin: auto;

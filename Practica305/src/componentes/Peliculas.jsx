@@ -14,7 +14,8 @@ const Peliculas = (props) => {
                             director={pelicula.director}
                             cartelera={pelicula.cartelera}
                             recaudacion={pelicula.recaudacion}
-                            actores={pelicula.actores}>
+                            actores={pelicula.actores}
+                            taquilla={pelicula.recaudacion}>
                                 {pelicula.resumen}
                             </Pelicula>
                         );

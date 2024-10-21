@@ -1,10 +1,30 @@
-.pelicula-titulo{
-    text-align: left;
-    padding-left: 50px;
+.pelicula-contenedor{
+    border: 1px solid rgb(1, 116, 1);
+    box-sizing: border-box;
 }
 
-.pelicula-titulo:hover{
-    cursor: pointer;
+.pelicula-boton1, .pelicula-boton2{
+    width: 20%;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+}
+
+.pelicula-boton1{
+    border: 2px solid cornflowerblue;
+}
+
+.pelicula-boton2, .pelicula-boton2:hover{
+    border: 2px solid crimson;
+}
+
+.pelicula-boton1:focus, .pelicula-boton2:focus{
+    outline: none;
+}
+
+.hidden{
+    display: none;
 }
 
 .pelicula-subtitulo{
@@ -43,6 +63,23 @@
     padding: 50px;
 }
 
+.pelicula-botones{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .pelicula-elenco{
     width: 99%;
+}
+
+.pelicula-taquilla{
+    width: 50%;
+}
+
+.pelicula-recaudacion{
+    width: 100%;
+    padding: 25px;
+    border: 2px dotted crimson;
 }

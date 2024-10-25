@@ -1,0 +1,7 @@
+#cabecera, #pie{
+    width: 99%;
+    border: 1px solid purple;
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 15px;
+}

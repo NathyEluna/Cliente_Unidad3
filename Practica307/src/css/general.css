@@ -1,0 +1,9 @@
+.general-div{
+    box-sizing: border-box;
+    width: 90%;
+    border: 1px solid red;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

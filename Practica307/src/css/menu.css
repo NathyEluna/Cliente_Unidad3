@@ -1,0 +1,13 @@
+
+
+.menu-link{
+    margin-left: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+
+.menu-link:hover{
+    background-color: rgb(141, 189, 252);
+    color: black;
+}

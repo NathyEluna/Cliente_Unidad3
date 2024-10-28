@@ -1,10 +1,14 @@
-
+.nav{
+    padding: 15px;
+}
 
 .menu-link{
+    background-color: white;
     margin-left: 25px;
     border: 1px solid black;
     padding: 10px;
     color: black;
+    border-radius: 15%;
 }
 
 .menu-link:hover{

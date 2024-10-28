@@ -4,7 +4,7 @@ import "../../css/menu.css";
 const Menu = () => {
   return (
     <>
-        <nav id="nav">
+        <nav className="nav">
             <Link className="menu-link" to="/">Inicio</Link>
             <Link className="menu-link" to="/peliculas">Películas</Link>
             <Link className="menu-link" to="/interpretes">Intérpretes</Link>

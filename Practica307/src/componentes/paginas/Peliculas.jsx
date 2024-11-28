@@ -1,9 +1,18 @@
+import { Outlet } from "react-router-dom";
+import SubmenuPeliculas from "../menus/SubmenuPeliculas.jsx";
 import Pelicula from "./Pelicula.jsx";
+import "../../css/general.css";
 
 const Peliculas = (props) => {
     const {peliculas} = props;
     return(
         <>
+            <div className="submenu">
+                <SubmenuPeliculas/>
+            </div>
+            <div>
+                <Outlet/>
+            </div>
             <div>
                 {peliculas.length
                     ? peliculas.map((pelicula) => {

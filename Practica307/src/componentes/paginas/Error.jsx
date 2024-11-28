@@ -1,6 +1,13 @@
+import "../../css/general.css";
+
 const Error = () => {
   return (
-    <p>Error: La página no existe.</p>
+    <>
+      <div className="general-div">
+        <h3>Error:</h3>
+        <p>Esta página no existe.</p>
+      </div>
+    </>
   )
 };
 
